@@ -5,6 +5,8 @@ import { TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
 import { SlimLayout } from '@/components/SlimLayout'
 import { type Metadata } from 'next'
+import Image from 'next/image'
+import newlogo from '../../../images/odelabs.png'
 
 export const metadata: Metadata = {
   title: 'Sign In',
@@ -15,7 +17,8 @@ export default function Login() {
     <SlimLayout>
       <div className="flex">
         <Link href="/" aria-label="Home">
-          <Logo className="h-10 w-auto" />
+          {/* <Logo className="h-10 w-auto" /> */}
+          <Image src={newlogo} width={300} alt="logo" />
         </Link>
       </div>
       <h2 className="mt-20 text-lg font-semibold text-gray-900">
@@ -25,7 +28,7 @@ export default function Login() {
         Don’t have an account?{' '}
         <Link
           href="/register"
-          className="font-medium text-blue-600 hover:underline"
+          className="font-medium text-[#064BAC] hover:underline"
         >
           Sign up
         </Link>{' '}
