@@ -32,7 +32,7 @@ export function Hero() {
         crafted experiments into exceptional web experiences.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Let us help</Button>
+        <Button href="/register">Reach Out!</Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
