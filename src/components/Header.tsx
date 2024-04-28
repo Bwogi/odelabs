@@ -122,8 +122,8 @@ export function Header() {
             </div>
             <Button
               href="/register"
-              className="bg-[#064BAC] text-white"
-              color=""
+              // className="bg-[#064BAC] text-white"
+              color="#064BAC"
             >
               <span>
                 Get started <span className="hidden lg:inline">today</span>
