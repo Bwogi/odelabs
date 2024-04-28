@@ -120,11 +120,7 @@ export function Header() {
             <div className="hidden md:block">
               <NavLink href="/login">Sign in</NavLink>
             </div>
-            <Button
-              href="/register"
-              // className="bg-[#064BAC] text-white"
-              color="#064BAC"
-            >
+            <Button href="/register" color="blue">
               <span>
                 Get started <span className="hidden lg:inline">today</span>
               </span>
